@@ -1,0 +1,10 @@
+$Raleway:(
+	Arvo-Bold,
+	Mukta-Regular
+);
+@each $font in $Raleway{
+	@font-face{
+		font-family: #{$font};
+		src: url(../fonts/#{$font}.ttf);
+	}
+}
